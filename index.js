@@ -1,3 +1,3 @@
 module.exports = {
-  commands: require('./lib/commands')
+  CommandStore: require('./lib/command-store').create()
 };
