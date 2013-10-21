@@ -5,5 +5,5 @@ module.exports = {
   CommandStore: function(connection) {
     var db = Db.create(connection);
     return CommandStore.create(db);
-  };
+  }
 };
